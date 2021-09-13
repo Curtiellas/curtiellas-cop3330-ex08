@@ -14,13 +14,13 @@ public class App
         Scanner sc = new Scanner(System.in);
 
         //scanning
-        System.out.println("How many people?");
+        System.out.print("How many people? ");
         int people = sc.nextInt();
 
-        System.out.println("How many pizzas do you have?");
+        System.out.print("How many pizzas do you have? ");
         int pizzas = sc.nextInt();
 
-        System.out.println("How many slices per pizza?");
+        System.out.print("How many slices per pizza? ");
         int slicesPerPizza = sc.nextInt();
 
         //calculations
